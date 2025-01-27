@@ -241,9 +241,9 @@ export default function Recomendation() {
             <IoIosArrowForward />
           </button>
         </div>
-        <button className="button none">
+        <button className="button nondsdsd noneds">
             Все товары{" "}
-            <div className="arrow">
+            <div className="arrow nonesds" >
               <GoArrowUpRight size={20} color="#fff" />
             </div>
           </button>

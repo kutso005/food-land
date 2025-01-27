@@ -293,6 +293,9 @@ p {
   justify-content: space-between;
   gap: 10px;
 }
+.noneds{
+  display: none;
+} 
 .recomendation-card-img {
   width: 100%;
   height: 200px;
