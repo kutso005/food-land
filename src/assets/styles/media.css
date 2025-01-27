@@ -1,0 +1,116 @@
+@media (max-width: 790px) {
+  .pages {
+    display: none;
+  }
+  .section h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .section {
+    top: 110px;
+    width: 90%;
+  }
+  .input {
+    width: 100%;
+  }
+  .section-input {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .button {
+    width: 100%;
+  }
+  .bg {
+    max-height: 600px;
+    min-height: 600px;
+  }
+  .about-title {
+    font-size: 28px;
+  }
+  .about-cards {
+    flex-direction: column;
+  }
+  .abs {
+    right: 20px;
+    width: 90%;
+    margin: auto;
+  }
+  .none {
+    display: none;
+  }
+  .views-img .button {
+    font-size: 10px;
+    border-radius: 100px;
+    padding: 4px 4px 4px 4px;
+    padding-left: 10px;
+  }
+  .views-img-text {
+    padding: 16px;
+  }
+  .recomendation-h1 {
+    font-size: 28px;
+  }
+  .views-title {
+    width: 100%;
+    font-size: 28px;
+  }
+  .views-img .arrow {
+    border-radius: 50%;
+  }
+  .views-img-text h3 {
+    font-size: 16px;
+  }
+  .views-grid {
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .recomendation-cards {
+    grid-template-columns: repeat(2, 1fr);
+    overflow-x: scroll;
+  }
+  .recomendation-card-text {
+    font-size: 12px;
+  }
+  .recomendation-card-img {
+    width: 180px;
+    height: 160px;
+  }
+  .button {
+    font-size: 10px;
+    border-radius: 100px;
+    padding: 4px 4px 4px 4px;
+    padding-left: 10px;
+  }
+  .nondsdsd {
+    background: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 4px 4px 4px 16px;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    transition: all 0.3s ease;
+  }
+  .nonesds {
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #93a27c;
+    border-radius: 16px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arrow {
+    width: 24px;
+    border-radius: 50%;
+    height: 24px;
+  }
+  .recomendation-card {
+    padding: 8px;
+  }
+}
